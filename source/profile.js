@@ -1,6 +1,6 @@
 var Profile = {
 	avatar: function (user, height) {
-	    return '<img src="http://play.pokemonshowdown.com/sprites/trainers/' + user.avatar + '.png' + '" align="left" height="' + height + '">';
+	    return '<div class=infobox><img src="http://play.pokemonshowdown.com/sprites/trainers/' + user.avatar + '.png' + '" align="left" height="' + height + '"></div>';
 	},
 
 	customAvatar: function (user, height) {
